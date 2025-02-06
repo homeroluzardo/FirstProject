@@ -12,6 +12,17 @@ public class NumeroAleatorio {
             System.out.println("No Acertaste!");
         }
         System.out.println("Numero aleatorio es: " + numeroAleatorio);
-        System.out.println("Hola");
+
+        // Números del 1 al 100 con While:
+
+        System.out.println(" ");
+        System.out.println("Números del 1 al 100 utilizando while:");
+
+        int contador = 0;
+        while (contador < 100) {
+            contador++;
+            System.out.println(contador);
+        }
+
     }
 }
